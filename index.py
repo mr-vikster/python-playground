@@ -1,5 +1,11 @@
 import sys
+from chords import chords
 
-name = sys.argv[1]
+userInput = sys.argv[1]
 
-print("Hello " + name + "!")
+print(f'user asked for {userInput}')
+
+if(userInput in chords):
+  print("Your chord is " + chords[userInput])
+else:
+  print("Chord not found")
