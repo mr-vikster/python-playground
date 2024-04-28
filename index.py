@@ -1,1 +1,5 @@
-input = "Song ly dM rics bla bla bla f#"
+import sys
+
+name = sys.argv[1]
+
+print("Hello " + name + "!")
