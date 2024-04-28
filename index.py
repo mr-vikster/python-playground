@@ -1,1 +1,4 @@
-print('Hello Sasha')
+name = 'Sasha'
+
+print('Hello ' + name + '!')
+
