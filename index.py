@@ -1,4 +1,1 @@
-name = 'Sasha'
-
-print('Hello ' + name + '!')
-print('more changes')
+input = "Song ly dM rics bla bla bla f#"
